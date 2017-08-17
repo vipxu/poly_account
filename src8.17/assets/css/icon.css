@@ -1,0 +1,65 @@
+.png1 {
+  background-image: url(/static/img/1.png);
+  background-repeat: no-repeat;
+}
+
+.png1-1 {
+  background-position: 0 0;
+}
+
+.png1-2 {
+  background-position: -60px 0;
+}
+
+.png1-3 {
+  background-position: -120px 0;
+}
+
+.png1-4 {
+  background-position: -180px 0;
+}
+
+.png1-5 {
+  background-position: -240px 0;
+}
+
+.png1-6 {
+  background-position: 0 -60px;
+}
+
+.png1-7 {
+  background-position: -60px -60px;
+}
+
+.png1-8 {
+  background-position: -120px -60px;
+}
+
+.png2 {
+  background-image: url(/static/img/menu.png);
+  background-repeat: no-repeat;
+}
+
+.png2-1 {
+  background-position: 0 0;
+}
+
+.png2-2 {
+  background-position: -30px 0;
+}
+
+.png2-3 {
+  background-position: -60px 0;
+}
+
+.png2-4 {
+  background-position: 0 -30px;
+}
+
+.png2-5 {
+  background-position: -30px -30px;
+}
+
+.png2-6 {
+  background-position: -60px -30px;
+}
