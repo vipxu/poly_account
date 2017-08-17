@@ -1,0 +1,379 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  min-width: 800px;
+  min-height: 600px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.after:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.before:before {
+  content: "";
+  display: table;
+}
+
+
+/*统一字号*/
+
+
+/*主标题  */
+
+.fz1 {
+  font-size: 20px;
+}
+
+
+/*标题  */
+
+.fz2 {
+  font-size: 18px;
+}
+
+
+/*小标题  */
+
+.fz3 {
+  font-size: 16px;
+}
+
+
+/*正文  */
+
+.fz4 {
+  font-size: 14px;
+}
+
+
+/*正文（小）  */
+
+.fz5 {
+  font-size: 13px;
+}
+
+
+/*辅助文字  */
+
+.fz6 {
+  font-size: 12px;
+}
+
+
+/*统一字号*/
+
+#Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 77px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+#Menu {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 80px;
+  width: 200px;
+  transition: width .3s;
+}
+
+#Content {
+  position: absolute;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+  top: 80px;
+  transition: left .3s;
+}
+
+.logo {
+  position: relative;
+  height: 100%;
+  width: 200px;
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -15px;
+  right: 0;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  height: 50%;
+}
+
+
+/*主题色*/
+
+.custom-primary {
+  background-color: rgb(0, 135, 190);
+}
+
+.custom-border-primary {
+  border-color: rgb(0, 135, 190);
+}
+
+.custom-color-primary {
+  color: rgb(0, 135, 190);
+}
+
+
+/*主题色*/
+
+
+/*动画*/
+
+.refreshfade-enter-active,
+.refreshfade-leave-active {
+  transition: opacity 1s;
+}
+
+.refreshfade-enter,
+.refreshfade-leave-to {
+  opacity: 0;
+}
+
+
+/*动画*/
+
+
+/*自定义导航菜单*/
+
+.el-menu--custom {
+  background-color: rgb(0, 135, 190);
+  width: 100%;
+}
+
+.el-menu--custom .el-menu-item,
+.el-menu--custom .el-submenu__title {
+  color: rgb(255, 255, 255);
+}
+
+.el-menu--custom .el-menu-item:hover,
+.el-menu--custom .el-submenu__title:hover {
+  background-color: rgb(0, 120, 165);
+}
+
+.el-menu--custom .el-submenu .el-menu {
+  background-color: rgb(255, 255, 255);
+}
+
+.el-menu--custom .el-submenu .el-menu>li {
+  background-color: inherit;
+}
+
+.el-menu--custom .el-submenu .el-menu .el-menu-item,
+.el-menu--custom .el-submenu .el-menu .el-submenu__title {
+  color: rgb(153, 153, 153);
+}
+
+.el-menu--custom .el-submenu .el-menu .el-menu-item.is-active {
+  background-color: inherit;
+  color: rgb(0, 135, 190);
+}
+
+.el-menu--custom .el-submenu .el-menu .el-menu-item:hover,
+.el-menu--custom .el-submenu .el-menu .el-submenu__title:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.el-menu--custom .el-menu-item.is-active {
+  background-color: rgb(0, 120, 165);
+}
+
+.el-menu--custom .el-menu-item-group__title {
+  padding: 0;
+}
+
+.el-menu--custom .el-menu-item-group:not(:last-child) {
+  border-right: 1px dashed #c7c7c7;
+}
+
+.el-menu--custom .el-menu-item-group {
+  float: left;
+}
+
+.el-menu--custom.el-menu--collapse .el-submenu .el-menu {
+  border: 4px solid #c7c7c7;
+  border-radius: 4px;
+  padding: 20px 0;
+}
+
+
+/*针对每个二级菜单  */
+
+.el-menu--custom.el-menu--collapse .el-submenu:nth-child(2) .el-menu {
+  width: 401px;
+}
+
+.el-menu--custom.el-menu--collapse .el-submenu:nth-child(3) .el-menu {
+  width: 401px;
+}
+
+.el-menu--custom.el-menu--collapse .el-submenu:nth-child(6) .el-menu {
+  width: 401px;
+}
+
+
+/*针对每个二级菜单  */
+
+.el-menu--custom.el-menu--collapse>.el-menu-item,
+.el-menu--custom.el-menu--collapse>.el-submenu>.el-submenu__title {
+  text-align: left;
+}
+
+.el-menu--custom.el-menu--collapse .el-submenu.is-active {
+  background-color: rgb(0, 120, 165);
+}
+
+.el-icon--custom {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.el-menu--custom.el-menu--collapse>.el-menu-item span,
+.el-menu--custom.el-menu--collapse>.el-submenu>.el-submenu__title span {
+  height: inherit;
+  width: inherit;
+  overflow: inherit;
+  visibility: inherit;
+}
+
+@media only screen and (max-width: 1400px) {
+  .el-menu--custom {
+    width: auto;
+  }
+  #Menu {
+    width: 70px;
+  }
+  #Content {
+    left: 70px;
+  }
+  .el-menu--custom.el-menu--collapse>.el-menu-item [class^=el-icon-],
+  .el-menu--custom.el-menu--collapse>.el-submenu>.el-submenu__title [class^=el-icon-] {
+    margin: 0;
+  }
+  .el-menu--custom.el-menu--collapse>.el-menu-item span,
+  .el-menu--custom.el-menu--collapse>.el-submenu>.el-submenu__title span {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .el-menu--custom.el-menu--collapse>.el-menu-item,
+  .el-menu--custom.el-menu--collapse>.el-submenu>.el-submenu__title {
+    text-align: center;
+  }
+}
+
+
+/*自定义导航菜单*/
+
+
+/*自定义标签页*/
+
+.el-tab--custom {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.el-tab--custom>.el-tabs__header {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.el-tab--custom>.el-tabs__content {
+  position: absolute;
+  margin: auto;
+  top: 42px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(244, 244, 244);
+  overflow: auto;
+}
+
+.el-tab--custom>.el-tabs__content>.el-tab-pane {
+  position: relative;
+}
+
+.el-tab--custom>.el-tabs__content>.el-tab-pane>div {
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.el-tab--custom>.el-tabs__header .el-tabs__item.is-active {
+  border-radius: 0;
+  background-color: rgb(244, 244, 244);
+  border-bottom: rgb(244, 244, 244);
+}
+
+.el-tab--custom>.el-tabs__header .el-tabs__item.is-disabled {
+  padding: 0;
+}
+
+.el-tab--custom>.el-tabs__header .el-tabs__item.is-disabled .el-button {
+  border: none;
+  border-radius: 0;
+  color: rgb(131, 150, 165);
+}
+
+.el-tab--custom>.el-tabs__header .el-tabs__item.is-disabled .el-button:hover {
+  color: rgb(31, 49, 61);
+}
+
+.el-tab--custom>.el-tabs__header .el-tabs__item.is-disabled .el-button:active,
+.el-tab--custom>.el-tabs__header .el-tabs__item.is-disabled .el-button:focus {
+  color: rgb(0, 135, 190);
+}
+
+.el-tab--custom>.el-tabs__header .el-tabs__nav-scroll {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+
+/*自定义标签页*/
+
+
+/*自定义卡片*/
+
+.el-card--custom {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(209, 221, 229);
+  color: rgb(31, 49, 61);
+}
+
+
+/*自定义卡片*/
+
+
+/*自定义按钮  */
+
+.el-button+.el-button {
+  margin-left: 0;
+}
+
+
+/*自定义按钮  */
