@@ -1,0 +1,56 @@
+#Customer {
+  #Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 79px;
+    width: auto;
+    border-bottom: 1px solid rgb(209, 221, 229);
+  }
+  #Content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 80px;
+    width: auto;
+    height: auto;
+    background: rgb(244, 244, 244);
+    min-width: 800px;
+    .cus-tree {
+      box-sizing: border-box;
+      position: absolute;
+      top: 15px;
+      bottom: 15px;
+      left: 15px;
+      width: 280px;
+      height: auto;
+      .el-row {
+        $el-row-height: 26px;
+        height: $el-row-height;
+        line-height: $el-row-height;
+        h3,
+        .el-badge {
+          display: inline-block;
+        }
+        h3 {
+          float: left;
+        }
+        .el-badge {
+          float: right;
+        }
+      }
+    }
+    .cus-view {
+      box-sizing: border-box;
+      position: absolute;
+      top: 15px;
+      bottom: 15px;
+      left: 310px;
+      right: 15px;
+      width: auto;
+      height: auto;
+    }
+  }
+}

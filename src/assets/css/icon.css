@@ -1,65 +1,135 @@
-.png1 {
-  background-image: url(/static/img/1.png);
-  background-repeat: no-repeat;
+.png-main-1 {
+  background: url(../img/main1.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-1 {
-  background-position: 0 0;
+.png-main-2 {
+  background: url(../img/main2.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-2 {
-  background-position: -60px 0;
+.png-main-3 {
+  background: url(../img/main3.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-3 {
-  background-position: -120px 0;
+.png-main-4 {
+  background: url(../img/main4.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-4 {
-  background-position: -180px 0;
+.png-main-5 {
+  background: url(../img/main5.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-5 {
-  background-position: -240px 0;
+.png-main-6 {
+  background: url(../img/main6.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-6 {
-  background-position: 0 -60px;
+.png-main-7 {
+  background: url(../img/main7.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-7 {
-  background-position: -60px -60px;
+.png-main-8 {
+  background: url(../img/main8.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png1-8 {
-  background-position: -120px -60px;
+
+/*导航菜单*/
+
+.png-menu-1 {
+  background: url(../img/menu1.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2 {
-  background-image: url(/static/img/menu.png);
-  background-repeat: no-repeat;
+.png-menu-2 {
+  background: url(../img/menu2.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2-1 {
-  background-position: 0 0;
+.png-menu-3 {
+  background: url(../img/menu3.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2-2 {
-  background-position: -30px 0;
+.png-menu-4 {
+  background: url(../img/menu4.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2-3 {
-  background-position: -60px 0;
+.png-menu-5 {
+  background: url(../img/menu5.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2-4 {
-  background-position: 0 -30px;
+.png-menu-6 {
+  background: url(../img/menu6.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2-5 {
-  background-position: -30px -30px;
+.png-menu-7 {
+  background: url(../img/menu7.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 
-.png2-6 {
-  background-position: -60px -30px;
+.png-menu-8 {
+  background: url(../img/menu8.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-menu-9 {
+  background: url(../img/menu9.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+
+/*辅助核算*/
+
+.png-supcal-1 {
+  background: url(../img/supcal1.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-2 {
+  background: url(../img/supcal2.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-3 {
+  background: url(../img/supcal3.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-4 {
+  background: url(../img/supcal4.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-5 {
+  background: url(../img/supcal5.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-6 {
+  background: url(../img/supcal6.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-7 {
+  background: url(../img/supcal7.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-8 {
+  background: url(../img/supcal8.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.png-supcal-9 {
+  background: url(../img/supcal9.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
